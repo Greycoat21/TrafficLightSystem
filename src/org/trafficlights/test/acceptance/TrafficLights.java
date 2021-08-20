@@ -1,3 +1,5 @@
+package org.trafficlights.test.acceptance;
+
 public class TrafficLights {
     private String state;
     public void setPreviousState(String state) {

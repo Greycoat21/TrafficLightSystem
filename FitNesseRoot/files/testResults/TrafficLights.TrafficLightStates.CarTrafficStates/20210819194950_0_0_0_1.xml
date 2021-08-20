@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <testResults>
   <FitNesseVersion>v20210606</FitNesseVersion>
-  <rootPath>TrafficLights.TrafficLightStates.CarTrafficStates</rootPath>
+  <rootPath>org.trafficlights.test.acceptance.TrafficLights.TrafficLightStates.CarTrafficStates</rootPath>
   <result>
     <counts>
       <right>0</right>
@@ -13,7 +13,7 @@
     <runTimeInMillis>95</runTimeInMillis>
     <content>&lt;br/&gt;&lt;table&gt;
 	&lt;tr class="slimRowTitle"&gt;
-		&lt;td colspan="2"&gt;Traffic Lights &lt;span class="error"&gt;Could not invoke constructor for TrafficLights[0]&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt;Traffic Lights &lt;span class="error"&gt;Could not invoke constructor for org.trafficlights.test.acceptance.TrafficLights[0]&lt;/span&gt;&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr class="slimRowTitle"&gt;
 		&lt;td&gt;previous state&lt;/td&gt;
@@ -28,13 +28,13 @@
     <relativePageName>CarTrafficStates</relativePageName>
     <instructions>
       <instructionResult>
-        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='TrafficLights', args=[]}</instruction>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='org.trafficlights.test.acceptance.TrafficLights', args=[]}</instruction>
         <slimResult></slimResult>
         <expectation>
           <status>error</status>
           <instructionId>decisionTable_0_0</instructionId>
           <type>ConstructionExpectation</type>
-          <evaluationMessage>Could not invoke constructor for TrafficLights[0]</evaluationMessage>
+          <evaluationMessage>Could not invoke constructor for org.trafficlights.test.acceptance.TrafficLights[0]</evaluationMessage>
         </expectation>
       </instructionResult>
       <instructionResult>

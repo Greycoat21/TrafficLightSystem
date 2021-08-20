@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <testResults>
   <FitNesseVersion>v20210606</FitNesseVersion>
-  <rootPath>TrafficLights.TrafficLightStates.CarTrafficStates</rootPath>
+  <rootPath>org.trafficlights.test.acceptance.TrafficLights.TrafficLightStates.CarTrafficStates</rootPath>
   <result>
     <counts>
       <right>0</right>
@@ -20,7 +20,7 @@
 		&lt;td&gt;next state?&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr class="slimRowColor1"&gt;
-		&lt;td&gt;red &lt;span class="error"&gt;No Method setPreviousState[1] in class TrafficLights.
+		&lt;td&gt;red &lt;span class="error"&gt;No Method setPreviousState[1] in class org.trafficlights.test.acceptance.TrafficLights.
  Available methods:
 equals(java.lang.Object) -&amp;gt; boolean
 getClass() -&amp;gt; class java.lang.Class
@@ -31,7 +31,7 @@ toString() -&amp;gt; class java.lang.String
 wait() -&amp;gt; void
 wait(long) -&amp;gt; void
 wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
-		&lt;td&gt;red, yellow &lt;span class="error"&gt;No Method nextState[0] in class TrafficLights.
+		&lt;td&gt;red, yellow &lt;span class="error"&gt;No Method nextState[0] in class org.trafficlights.test.acceptance.TrafficLights.
  Available methods:
 equals(java.lang.Object) -&amp;gt; boolean
 getClass() -&amp;gt; class java.lang.Class
@@ -48,7 +48,7 @@ wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
     <relativePageName>CarTrafficStates</relativePageName>
     <instructions>
       <instructionResult>
-        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='TrafficLights', args=[]}</instruction>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='org.trafficlights.test.acceptance.TrafficLights', args=[]}</instruction>
         <slimResult>pass(Traffic Lights)</slimResult>
         <expectation>
           <status>pass</status>
@@ -66,7 +66,7 @@ wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
           <status>error</status>
           <instructionId>decisionTable_0_4</instructionId>
           <type>VoidReturnExpectation</type>
-          <evaluationMessage>No Method setPreviousState[1] in class TrafficLights.
+          <evaluationMessage>No Method setPreviousState[1] in class org.trafficlights.test.acceptance.TrafficLights.
  Available methods:
 equals(java.lang.Object) -&gt; boolean
 getClass() -&gt; class java.lang.Class
@@ -86,7 +86,7 @@ wait(long, int) -&gt; void</evaluationMessage>
           <status>error</status>
           <instructionId>decisionTable_0_6</instructionId>
           <type>ReturnedValueExpectation</type>
-          <evaluationMessage>No Method nextState[0] in class TrafficLights.
+          <evaluationMessage>No Method nextState[0] in class org.trafficlights.test.acceptance.TrafficLights.
  Available methods:
 equals(java.lang.Object) -&gt; boolean
 getClass() -&gt; class java.lang.Class

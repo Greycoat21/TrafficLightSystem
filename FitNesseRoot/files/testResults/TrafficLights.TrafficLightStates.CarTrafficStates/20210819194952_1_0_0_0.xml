@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <testResults>
   <FitNesseVersion>v20210606</FitNesseVersion>
-  <rootPath>TrafficLights.TrafficLightStates.CarTrafficStates</rootPath>
+  <rootPath>org.trafficlights.test.acceptance.TrafficLights.TrafficLightStates.CarTrafficStates</rootPath>
   <result>
     <counts>
       <right>1</right>
@@ -28,7 +28,7 @@
     <relativePageName>CarTrafficStates</relativePageName>
     <instructions>
       <instructionResult>
-        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='TrafficLights', args=[]}</instruction>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='org.trafficlights.test.acceptance.TrafficLights', args=[]}</instruction>
         <slimResult>pass(Traffic Lights)</slimResult>
         <expectation>
           <status>pass</status>
