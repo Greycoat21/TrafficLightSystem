@@ -1,0 +1,6 @@
+---
+Test
+---
+!|Traffic Lights           |
+|previous state|next state?|
+|red           |red, yellow|
