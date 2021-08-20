@@ -19,6 +19,15 @@ public enum LightState {
         return UNKNOWN;
     }
 
+    public static LightState valueFor(String stateName) {
+        for (LightState state: values()) {
+            if (state.description.equals(stateName)) {
+                return state;
+            }
+        }
+        return UNKNOWN;
+    }
+
     String description;
 
     LightState(String description) {
