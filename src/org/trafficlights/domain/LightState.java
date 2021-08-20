@@ -1,13 +1,13 @@
 package org.trafficlights.domain;
 
 public enum LightState {
-    RED {
+    RED("red") {
         public LightState next() { return RED_YELLOW; }
     },
-    RED_YELLOW {
+    RED_YELLOW("red, yellow") {
         public LightState next() { return GREEN; }
     },
-    GREEN {
+    GREEN("green") {
         public LightState next() { return YELLOW; }
     },
     YELLOW {
@@ -17,5 +17,15 @@ public enum LightState {
 
     public LightState next() {
         return UNKNOWN;
+    }
+
+    String description;
+
+    LightState() {
+        this("");
+    }
+
+    LightState(String description) {
+        this.description = description;
     }
 }
