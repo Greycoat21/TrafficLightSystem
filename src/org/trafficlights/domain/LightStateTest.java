@@ -26,8 +26,8 @@ public class LightStateTest {
         });
     }
 
-    private final String stateName;
-    private final LightState state;
+    private String stateName;
+    private LightState state;
 
     public LightStateTest(String stateName, LightState state) {
         this.state = state;
