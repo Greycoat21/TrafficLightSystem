@@ -4,3 +4,6 @@ Test
 !|FirstLightSwitchingCrossingController             |
 |first light|second light|first light?|second light?|
 |green      |red         |yellow      |red          |
+|yellow     |red         |red         |red          |
+|red, yellow|red         |green       |red          |
+|red        |red         |red, yellow |red          |
