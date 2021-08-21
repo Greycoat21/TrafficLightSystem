@@ -16,7 +16,7 @@ public class FirstLightSwitchingCrossingController {
     }
 
     public LightState firstLight() {
-        return firstState.next();
+        return firstState;
     }
 
     public LightState secondLight() {

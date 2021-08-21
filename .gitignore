@@ -1,5 +1,5 @@
 # Project exclude paths
 /classes/
-/files/testResults/
+/FitNesseRoot/files/testResults/
 
 *.zip
