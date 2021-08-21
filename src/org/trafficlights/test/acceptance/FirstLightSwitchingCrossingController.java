@@ -5,13 +5,14 @@ import org.trafficlights.domain.LightState;
 public class FirstLightSwitchingCrossingController {
 
     LightState firstState;
+    LightState secondState;
 
     public void setFirstLight(LightState state) {
         this.firstState = state;
     }
 
     public void setSecondLight(LightState state) {
-
+        this.secondState = state;
     }
 
     public LightState firstLight() {
@@ -19,6 +20,6 @@ public class FirstLightSwitchingCrossingController {
     }
 
     public LightState secondLight() {
-        return LightState.RED;
+        return secondState;
     }
 }
