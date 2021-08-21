@@ -1,0 +1,6 @@
+---
+Test
+---
+!|FirstLightSwitchingCrossingController             |
+|first light|second light|first light?|second light?|
+|green      |red         |yellow      |red          |
