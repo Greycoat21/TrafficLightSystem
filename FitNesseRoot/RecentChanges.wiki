@@ -1,4 +1,4 @@
-|TrafficLights.CrossingControl.TwoCarCrossings||12:25:37 Sat, Aug 21, 2021|
+|TrafficLights.CrossingControl.TwoCarCrossings||13:49:18 Sat, Aug 21, 2021|
 |TrafficLights.SetUp||12:16:19 Sat, Aug 21, 2021|
 |TrafficLights.TrafficLightStates.CarTrafficStates||12:15:50 Sat, Aug 21, 2021|
 |TrafficLights.CrossingControl||12:11:34 Sat, Aug 21, 2021|
